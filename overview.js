@@ -1,4 +1,5 @@
 var _ = require('lodash');
+
 var worker = function(collection) {
   var overview = [],
       total = 0;

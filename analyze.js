@@ -1,4 +1,5 @@
 var _ = require('lodash');
+
 var worker = function(notAnalyzed) {
   var average,
       underperform,
@@ -25,6 +26,5 @@ var worker = function(notAnalyzed) {
       overperform: overperform
   };
 };
-
 
 module.exports = worker;
